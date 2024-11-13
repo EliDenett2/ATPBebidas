@@ -1,0 +1,223 @@
+.producto {
+  margin-left: 2em;
+  margin-right: 2em;
+}
+.carousel {
+  margin-left: 15vh !important;
+}
+.ml-50vh {
+  margin-left: 50vh !important;
+}
+
+.paddin_1_left_em {
+  padding-left: 1em !important;
+}
+
+.paddin_1_right_em {
+  padding-right: 1em !important;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  background-color: white !important;
+}
+
+.recomendacion {
+  margin-top: 4rem !important;
+}
+
+.contenedor {
+  position: relative;
+  display: inline-block;
+  text-align: center;
+}
+
+.sin_promocion{
+  width: 18rem !important;
+}
+
+.center_img{
+  display: block !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
+}
+
+.bg-img {
+  background-image: url("../Imagenes/fondo_registrar_login.png");
+  min-height: 50em;
+  min-width: max-content;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
+  margin-left: 2rem;
+  margin-right: 2rem;
+}
+
+.product-details {
+  padding: 10px;
+}
+
+li {
+  margin-right: 2em !important;
+}
+
+.vl {
+  border-left: 6px solid white;
+  margin-left: 2em !important;
+  margin-right: 2em !important;
+}
+
+.line {
+  border-bottom: 1px solid rgb(102, 102, 221);
+}
+
+.information span {
+  font-size: 12px;
+  font-weight: 500;
+}
+
+.information {
+  margin-bottom: 5px;
+}
+
+.items {
+  -webkit-box-shadow: 5px 5px 4px -1px rgba(0, 0, 0, 0.25);
+  box-shadow: 5px 5px 4px -1px rgba(0, 0, 0, 0.08);
+}
+
+.spec {
+  font-size: 11px;
+}
+
+.form_container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-40%, -50%);
+}
+
+.fa-search {
+  position: relative;
+  z-index: 1;
+  left: -2.3em;
+  top: -0.2em;
+  color: #7b7b7b;
+  cursor: pointer;
+  width: 0;
+}
+
+.filtros {
+  margin-left: 1.2rem !important;
+}
+
+.filtro_item {
+  margin-right: 1rem !important;
+}
+
+.fondo_nosostros_card_1 {
+  background: rgba(87, 17, 39, 1);
+}
+.fondo_nosostros_card_2 {
+  background: rgba(67, 17, 33, 1);
+}
+
+.gap_2em {
+  column-gap: 2em;
+}
+
+.card_nosotros {
+  width: 500px;
+  height: 830px;
+  gap: 0px;
+  border-radius: 32px 0px 0px 0px;
+  opacity: 0px;
+}
+
+.newsletter {
+  background: url("../Imagenes/newsletter.png") no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.newsletter_div {
+  width: 55vh !important;
+}
+
+.submit_form_button {
+  background: rgba(177, 118, 242, 1) !important;
+}
+
+.submit_form_button:hover {
+  background: rgb(60, 1, 122) !important;
+  color: white !important;
+}
+
+.scroll {
+  overflow-y: scroll;
+  -webkit-overflow-scrolling: touch;
+}
+
+.texto_carrito{
+  margin-right: 3rem !important;
+}
+
+.height_60em {
+  height: 60em;
+}
+
+#promociones_descuentos {
+  height: 15em !important;
+}
+
+.height_25em {
+  height: 25em !important;
+}
+
+.height_35em {
+  height: 35em !important;
+}
+
+@media only screen and (max-width: 600px) {
+  .ml-50vh {
+    margin-left: 1vh !important;
+  }
+
+  .card_nosotros{
+      width: 60vh !important;
+  }
+
+  .dropdown{
+    margin-top: 1em;
+  }
+
+}
+
+@media only screen and (min-width: 1100px) {
+
+  #lista_filtros{
+    margin-left: 7rem;
+  }
+
+}
+.nav-item {
+  cursor: pointer;
+}
+
+nav {
+  display: flex;
+  justify-content: center !important;
+  width: 75%;
+  margin-left: 10vh !important;
+}
+@media only screen and (min-width: 760px) {
+.dropdown {
+  position: absolute !important;
+  right: -20% !important;
+}
+}
+
+.dropdown-menu{
+    background-color: rgb(177, 118, 242) !important;
+}
